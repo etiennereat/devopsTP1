@@ -1,8 +1,0 @@
-git init
-git add AUTHORS
-git commit -m 'etape 3'
-git remote add origin git@gitserver:etiennereat/devopsTP1
-git push origin master
-git push --set-upstream origin master
-
-Up stream est une branche de suivi a distance, Une reference vers une branche de notre depot distant.
