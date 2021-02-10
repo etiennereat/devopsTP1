@@ -1,0 +1,14 @@
+Pour creer un fichier dans chaque categorie on a fait les commandes suivantes :
+
+touch ChangesToBeCommitted.txt ChangesNotStagedForCommit.txt Untracked.txt
+git add statusTest/Changes*
+echo "je suis modifie" >> statusTest/ChangesToBeCommitted.txt
+
+La premier categorie regroupe les fichiers qui sont suivis et qui sont modifies depuis le dernier commit.
+
+Le deuxieme regroupe les fichiers suivis.
+
+Le dernier est les fichiers non suivis 
+
+
+Les fichiers modifiés et suivis sont donc dans la categorie 1 et 2.
