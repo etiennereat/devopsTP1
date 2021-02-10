@@ -1,0 +1,9 @@
+1) git branch feature1
+
+2) git branch -l
+
+3) git branch --show-current
+
+4) git checkout feature1
+
+5) il n'y a pas les modifications realisees dans la branche feature1 car on a pas merge la branche.
