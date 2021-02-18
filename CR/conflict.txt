@@ -18,3 +18,8 @@ je suis dans feature1
 >>>>>>> feature1
 
 Pour le resoudre on a simplement revalidé le fichier en utilisant git add file_conflict.txt.
+
+
+etape 15 :
+
+je ne sais pas comment résoudre les conflits
