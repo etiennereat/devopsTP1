@@ -1,0 +1,6 @@
+Pour faire l'etape 13 on a cree un fichier ".gitignore". Dans ce dernier on a ecrit les 2 lignes suivantes :
+
+*.pdf
+tmp/
+
+la premiere ligne enleve les fichiers pdf et la deuxieme les fichiers present dans le dossier "tmp".
