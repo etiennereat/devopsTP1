@@ -18,3 +18,12 @@ je suis dans feature1
 >>>>>>> feature1
 
 Pour le resoudre on a simplement revalidé le fichier en utilisant git add file_conflict.txt.
+
+
+Pour l'etape 17 :
+
+On peut utiliser git stash dans un cas où :
+
+On est en cours d'implémentation sur une branche. Le code en question n'est pas fini et l'on veut verifier un point present sur une autre branche.
+On ne veut donc pas push mettre sur le serveur nos modifications car elles ne sont pas encore prete a etre commit. On les conserve donc dans un stash
+local en attendant notre retour sur la branche.
