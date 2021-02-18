@@ -1,3 +1,7 @@
-on a fait la commande :
+Pour l'etape 15 on a fait la commande :
 
 git revsert HEAD^
+
+Pour l'etape 16 on a fait la commande :
+
+git restore CR/conflict.txt
