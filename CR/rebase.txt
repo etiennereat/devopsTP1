@@ -1,0 +1,20 @@
+les commandes executées pour faire l'étape 11 sont :
+
+git checkout master 
+
+git rebase feature2
+
+git pull
+
+Le git rebase permet de fusionner les 2 branches mais en effacant les blobs de la branche feature2 pour simplifier l'historique
+
+Avec cette operation on doit mettre a jour notre arbre de notre branche pour que ce dernier penne en compte le rebase :
+
+
+-O-------->1
+  \--2--/
+  
+devient 
+
+
+-0----2----->1
