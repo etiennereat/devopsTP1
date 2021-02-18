@@ -1,0 +1,20 @@
+Pour creer le conflit entre feature1 et origine on a cree le fichier file_conflict.txt où l'on ecrit 
+"je suis dans feature1/master" en finction de la branche 
+
+on a push dans chacune d'elle cette modification puis 
+
+git checkout master 
+
+git merge feature1
+
+Ici il y a un conflit car on a fait la modification du meme fichier sur 2 branches.
+
+On a donc ca dans ce dernier :
+
+<<<<<<< HEAD
+je suis dans master
+=======
+je suis dans feature1
+>>>>>>> feature1
+
+Pour le resoudre on a simplement revalidé le fichier en utilisant git add file_conflict.txt.
