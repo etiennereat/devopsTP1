@@ -4,3 +4,12 @@ Pour faire l'etape 13 on a cree un fichier ".gitignore". Dans ce dernier on a ec
 tmp/
 
 la premiere ligne enleve les fichiers pdf et la deuxieme les fichiers present dans le dossier "tmp".
+
+quand on realise la commande :
+
+git add tmp/
+
+on a bien le message suivant :
+
+Les chemins suivants sont ignorés par un de vos fichiers .gitignore :
+tmp
