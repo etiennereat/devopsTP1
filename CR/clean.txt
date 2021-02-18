@@ -1,0 +1,20 @@
+Dans un premier temps on a creer 3 fichiers a l'aide de 3 commit destinct:
+
+etape 18_1
+etape 18_2
+etape 18_3
+
+Puis on a utilise la commande git rebase -i 
+
+Dans le fichier interactif on a donc ecrit
+
+pick "etape 18_1"
+squash "etape 18_3"
+drop "etape 18_2"
+
+Un cas d'utilisation qu'on a nous même utilisé : 
+
+Un collegue a commit un fichier .xml or ceci n'avait pas lieu d 'etre il a donc rebase pour drop le commit en question.
+Cela peu etre utilse dans d'autre cas pour regroupé les commit qui ont la meme 
+fonction. Par exemple l'ajout de 3 fichier peu etre fusionné en 1 commit 
+Pour rendre l'historique plus lisible.
